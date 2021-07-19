@@ -1,4 +1,21 @@
 {
+  "CF123037650": {
+    "contest_id": 1265,
+    "language": "GNU C++17",
+    "path": "codeforces/1265/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beautiful Sequence",
+    "problem_url": "https://codeforces.com/contest/1265/problem/D",
+    "submission_id": "CF123037650",
+    "submission_url": "https://codeforces.com/contest/1265/submission/123037650",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jul/19/2021 21:35"
+  },
   "CF123048216": {
     "contest_id": 1051,
     "language": "GNU C++17",
