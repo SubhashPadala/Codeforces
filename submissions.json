@@ -1,4 +1,21 @@
 {
+  "CF123128693": {
+    "contest_id": 1141,
+    "language": "GNU C++17",
+    "path": "codeforces/1141/F2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Same Sum Blocks (Hard)",
+    "problem_url": "https://codeforces.com/contest/1141/problem/F2",
+    "submission_id": "CF123128693",
+    "submission_url": "https://codeforces.com/contest/1141/submission/123128693",
+    "tags": [
+      "data structures",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Jul/20/2021 23:33"
+  },
   "CF123128779": {
     "contest_id": 1141,
     "language": "GNU C++17",
