@@ -1,4 +1,23 @@
 {
+  "CF123216385": {
+    "contest_id": 1114,
+    "language": "GNU C++17",
+    "path": "codeforces/1114/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Trailing Loves (or L'oeufs?)",
+    "problem_url": "https://codeforces.com/contest/1114/problem/C",
+    "submission_id": "CF123216385",
+    "submission_url": "https://codeforces.com/contest/1114/submission/123216385",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory",
+      "*1700"
+    ],
+    "timestamp": "Jul/21/2021 23:47"
+  },
   "CF123243990": {
     "contest_id": 797,
     "language": "GNU C++17",
