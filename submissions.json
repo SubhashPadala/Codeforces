@@ -1,4 +1,21 @@
 {
+  "CF123249176": {
+    "contest_id": 710,
+    "language": "GNU C++17",
+    "path": "codeforces/710/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Magic Odd Square",
+    "problem_url": "https://codeforces.com/contest/710/problem/C",
+    "submission_id": "CF123249176",
+    "submission_url": "https://codeforces.com/contest/710/submission/123249176",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jul/22/2021 12:23"
+  },
   "CF123266018": {
     "contest_id": 1249,
     "language": "GNU C++17",
