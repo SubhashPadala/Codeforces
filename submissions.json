@@ -1,4 +1,20 @@
 {
+  "CF123606074": {
+    "contest_id": 1169,
+    "language": "GNU C++17",
+    "path": "codeforces/1169/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Good Triple",
+    "problem_url": "https://codeforces.com/contest/1169/problem/D",
+    "submission_id": "CF123606074",
+    "submission_url": "https://codeforces.com/contest/1169/submission/123606074",
+    "tags": [
+      "brute force",
+      "*1900"
+    ],
+    "timestamp": "Jul/24/2021 18:07"
+  },
   "CF123611822": {
     "contest_id": 1005,
     "language": "GNU C++17",
