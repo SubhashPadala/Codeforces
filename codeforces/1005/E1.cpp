@@ -79,9 +79,6 @@ int32_t main()
 #ifndef KILL_BUG
     	TIE;
 #endif
-        // GrandMaster Sivav
-        // such a Nice Problem, len/2 number will be greater than median.
-        // len/2 = gl[l] + gr[r];
 	int n, m; cin>>n>>m;
         vi p(n+1);
         int id = -1;
