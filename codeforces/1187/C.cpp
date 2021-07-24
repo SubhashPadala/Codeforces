@@ -71,12 +71,6 @@ int32_t main()
 #ifndef KILL_BUG
     	TIE;
 #endif
-        // GrandMaster Sivav
-        // I literally had zeroMood solving this question, wasted so much time.
-        // ar[i] = 1 if (i, i+1) form increasing pair
-        // ar[i] = -1 if(i, i+1) form decreasing pair
-        // if [l, r] is increasing then ar[i] = 1 for all i = [l, r-1]
-        // for decreasing if atleast one ar[i] = -1 for i = [l, r-1].
 	int n, m; cin>>n>>m;
         vi ar(n+1);
         vp t;
