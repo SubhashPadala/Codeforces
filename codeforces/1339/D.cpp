@@ -93,11 +93,6 @@ int32_t main()
 #ifndef KILL_BUG
     	TIE;
 #endif
-        // GrandMaster Sivav
-        // Very Very Good Problem
-        // Things to Note, My way of approach was scrambled
-        // After seeing the way they approached the problem, I really liked it.
-        // This Problem has best Constructive Solution Explanation.
         int n; cin>>n;
         adj.assign(n, vi());
         dist.assign(n, 0);
