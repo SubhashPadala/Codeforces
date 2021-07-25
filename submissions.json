@@ -1,4 +1,23 @@
 {
+  "CF123734096": {
+    "contest_id": 1552,
+    "language": "GNU C++17",
+    "path": "codeforces/1552/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Running for Gold",
+    "problem_url": "https://codeforces.com/contest/1552/problem/B",
+    "submission_id": "CF123734096",
+    "submission_url": "https://codeforces.com/contest/1552/submission/123734096",
+    "tags": [
+      "combinatorics",
+      "graphs",
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jul/25/2021 20:48"
+  },
   "CF123751027": {
     "contest_id": 1552,
     "language": "GNU C++17",
