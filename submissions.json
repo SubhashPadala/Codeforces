@@ -1,4 +1,21 @@
 {
+  "CF123865063": {
+    "contest_id": 1082,
+    "language": "GNU C++17",
+    "path": "codeforces/1082/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Multi-Subject Competition",
+    "problem_url": "https://codeforces.com/contest/1082/problem/C",
+    "submission_id": "CF123865063",
+    "submission_url": "https://codeforces.com/contest/1082/submission/123865063",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jul/26/2021 23:14"
+  },
   "CF123869006": {
     "contest_id": 1082,
     "language": "GNU C++17",
