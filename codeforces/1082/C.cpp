@@ -80,7 +80,6 @@ int32_t main()
     	TIE;
 #endif
 	int n, m; cin>>n>>m;
-        //This is inevitable, when working with half brain
         vector<vector<int>> subjectMaxPrefix(m);
         dbg(n, m);
         for(int i = 0; i < n; i++)
