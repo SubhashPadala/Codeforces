@@ -1,4 +1,23 @@
 {
+  "CF123848399": {
+    "contest_id": 777,
+    "language": "GNU C++17",
+    "path": "codeforces/777/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Cloud of Hashtags",
+    "problem_url": "https://codeforces.com/contest/777/problem/D",
+    "submission_id": "CF123848399",
+    "submission_url": "https://codeforces.com/contest/777/submission/123848399",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Jul/26/2021 19:58"
+  },
   "CF123859172": {
     "contest_id": 404,
     "language": "GNU C++17",
