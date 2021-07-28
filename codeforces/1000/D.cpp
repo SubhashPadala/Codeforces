@@ -79,10 +79,6 @@ int32_t main()
 #ifndef KILL_BUG
     	TIE;
 #endif
-        // GrandMaster Sivav
-        // very Simple Problem, make dp transitions very clear.
-        // dp[0] = 1;
-        // think of base case clearly.
 	int n; cin>>n;
         vi ar(n+1);
         for(int i = n; i >= 1;i--)
