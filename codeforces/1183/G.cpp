@@ -78,9 +78,6 @@ void reset(){ }
 
 void runtestcase()
 {
-    //Very Simple problem, with elegant proof.
-    //Come out of recursion when you feel like overdoing by quickly looking at states you explored :hehe:
-    //GrandMaster Sivav
     int n; cin>>n;
     mii avail;
     mii give;
