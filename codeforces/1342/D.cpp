@@ -1,4 +1,5 @@
 // Problem ID - 1342D
+
 //          _____                 ___    __
 //  ___________(_)___   ________ ___ |  / /
 //  __  ___/__  / __ | / /_  __ `/__ | / /
@@ -33,7 +34,6 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define int long long
 #define mp make_pair
 #define ln "\n"
-#define case cout << "Case #" << cno << ": " << ln
 
 #define sz(x) ((int)(x).size())
 #define prec(x) cout << fixed << showpoint; cout << setprecision(x)
@@ -45,7 +45,6 @@ using vi = vector<int>;
 using pii = pair<int, int>;
 using vp = vector<pii>;
 using vv = vector<vector<int>>;
-using mii = map<int, int>;
 
 const int MOD = (int)1e9 + 7;
 const int MOD2 = (int)998244353;
@@ -74,63 +73,67 @@ int powb(int a, int n, int m) {
     return res;
 }
 
-void reset(){ }
-const int N = 2e5+5;
-int n, k;
-int a[N], c[N], f[N];
-vector<int> answer[N];
-void runtestcase()
-{
-    cin>>n>>k;
-
-    rep(i, 1, n+1)
-    {
-	cin>>a[i];
-	f[a[i]]++;
-    }
-    rep(i, 1, k+1)
-	cin>>c[i];
-    int cur = 0, ans = 0;
-    for(int i=k; i>=1; i--)
-    {
-	cur+=f[i];
-	ans = max(ans, (cur+c[i]-1)/c[i]);
-    }
-    cout << ans << ln;
-    int idx = 0;
-    for(int i = k; i >=1; i--)
-    {
-	for(int j = 1; j <= f[i]; j++)
-	{
-	    answer[idx].pb(i);
-	    idx++;
-	    // This part is sooooooooooooo Niceeeeeee
-	    // Thanks to mshiladityam, who is Thankful to Ashishgup :joy:
-	    idx %= ans;
-	}
-    }
-    for(int i = 0; i < ans; i++)
-    {
-	cout << answer[i].size() << " ";
-	for(auto&it:answer[i])
-	    cout << it << " ";
-	cout << endl;
-    }
-    return;
-}
-
 int32_t main()
 {
 	    IOS;
 #ifndef KILL_BUG
     	TIE;
 #endif
-	int testcase = 1; 
-	rep(tc, 1, testcase+1)
-	{
-		dbg(tc);
-		reset();
-		runtestcase();
-	}
+        //Started My day with 1900 problem, ImplementForces :joy:
+        //GrandMaster Sivav
+	int n, k; cin>>n>>k;
+        multiset<int> ar;
+        rep(i, 0, n)
+        {
+            int a; cin>>a;
+            ar.insert(a);
+        }
+        vi c(k);
+        for(int i = k-1; i>=0; i--)
+            cin>>c[i];
+        //using 2 binary search we can do the job?
+        vector<vector<int>> ans;
+        vv testcase;
+        int cur = 0;
+        while(ar.size())
+        {
+            //fill(testcase[cur]);
+            //testcase[cur]
+            // find available size, any number greater than available size can also be put.
+            testcase.pb(vi());
+            int cnt = 0;
+            int prev = k;
+            while(true)
+            {
+                //least size which we can fill, if it is end then break;
+                int least = c.end()-upper_bound(c.end()-prev, c.end(), cnt);
+                dbg(least);
+                if(least==0)
+                    break;
+                // value of color in ar.
+                auto lb = ar.upper_bound(least);
+                if(ar.size() and lb!=ar.begin())
+                {
+                    lb--;
+                    testcase[cur].pb(*lb);
+                    prev = *lb;
+                    ar.erase(lb);
+                    cnt++;
+                }
+                else
+                    break;
+                dbg(prev, cnt);
+            }
+            dbg(testcase[cur]);
+            cur++;
+        }
+        cout << testcase.size() << ln;
+        for(auto&i: testcase)
+        {
+            cout << i.size() << " ";
+            for(auto &j: i)
+                cout << j << " ";
+            cout << ln;
+        }
 	return 0;
 }
