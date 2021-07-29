@@ -95,10 +95,10 @@ void runtestcase()
     vv adj(n);
     rep(i, 0, m)
     {
-	int x, y; cin>>x>>y;
-	x--, y--;
-	adj[x].pb(y);
-	adj[y].pb(x);
+	int a, b; cin>>a>>b;
+	a--, b--;
+	adj[a].pb(b);
+	adj[b].pb(a);
     }
     dbg(adj);
     auto bfs = [&](auto source, auto&dist){
