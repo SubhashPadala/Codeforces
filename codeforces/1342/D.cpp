@@ -79,8 +79,6 @@ int32_t main()
 #ifndef KILL_BUG
     	TIE;
 #endif
-        //Started My day with 1900 problem, ImplementForces :joy:
-        //GrandMaster Sivav
 	int n, k; cin>>n>>k;
         multiset<int> ar;
         rep(i, 0, n)
